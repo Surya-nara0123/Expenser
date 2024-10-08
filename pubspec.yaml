@@ -1,0 +1,37 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  sqlite3_flutter_libs: ^0.5.10
+  intl: ^0.19.0
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  path_provider: ^2.0.11
+  flutter_lints: ^4.0.0
+  sqflite_common_ffi: ^2.1.0+1  #
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: IrishGrover
+      fonts:
+        - asset: fonts/Inria_Sans/InriaSans-Bold.ttf
+        - asset: fonts/Inria_Sans/InriaSans-BoldItalic.ttf
+        - asset: fonts/Inria_Sans/InriaSans-Italic.ttf
+        - asset: fonts/Inria_Sans/InriaSans-Light.ttf
+        - asset: fonts/Inria_Sans/InriaSans-LightItalic.ttf
+        - asset: fonts/Inria_Sans/InriaSans-Regular.ttf
